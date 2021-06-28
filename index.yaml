@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  gitops-rhsso:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-06-28T12:06:35.35406-05:00"
+    description: A Helm chart for Kubernetes
+    digest: 4e1c46b53634301347b23a06318325b76b809ab4808f5ac6aea46e4f52c41c32
+    name: gitops-rhsso
+    type: application
+    urls:
+    - https://sk193.github.io/gitops-testing/gitops-rhsso-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-06-28T12:06:35.353534-05:00"

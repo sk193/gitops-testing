@@ -1,0 +1,14 @@
+# Default values for ibm-ace-operator.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+subscriptions:
+  rhssooperator:
+    name: rhsso-operator
+    subscription:
+      channel: alpha
+      installPlanApproval: Automatic
+      name: rhsso-operator
+      source: redhat-operators
+      sourceNamespace: openshift-marketplace
+      startingCSV: rhsso-operator.7.4.7
